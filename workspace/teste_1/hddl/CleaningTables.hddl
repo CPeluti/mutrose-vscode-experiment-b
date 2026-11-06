@@ -1,0 +1,18 @@
+(define (domain restaurant)
+	(:types table - object)
+	(:task CleanTable :parameters (?r - robot ?t - table))
+	(:method clean-table
+		:parameters (?r - robot ?t - table)
+		:task (CleanTable ?r ?t)
+		:ordered-subtasks (and
+			(navto ?r ?t)
+			(clean-table ?t)
+		)
+	)
+	(:action navto 
+		:parameters (?r - robot ?t - table)
+	)
+	(:action clean-table
+		:parameters (?t - table)
+	)
+)

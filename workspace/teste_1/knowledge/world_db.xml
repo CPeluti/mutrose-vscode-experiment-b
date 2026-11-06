@@ -1,0 +1,14 @@
+<world_db>
+	<Table>
+		<name>Table1</name>
+		<needs_cleaning>False</needs_cleaning>
+	</Table>
+	<Table>
+		<name>Table2</name>
+		<needs_cleaning>True</needs_cleaning>
+	</Table>
+	<Table>
+		<name>Table3</name>
+		<needs_cleaning>True</needs_cleaning>
+	</Table>
+</world_db>

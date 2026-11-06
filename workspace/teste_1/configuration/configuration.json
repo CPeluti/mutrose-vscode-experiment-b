@@ -1,0 +1,32 @@
+{
+  "world_db": {
+    "type": "file",
+    "file_type": "xml",
+    "path": "knowledge/world_db.xml",
+    "xml_root": "world_db"
+  },
+  "output": {
+    "output_type": "file",
+    "file_path": "output/task_output.json",
+    "file_type": "json"
+  },
+  "location_types": [],
+  "type_mapping": [
+    {
+      "hddl_type": "table",
+      "ocl_type": "Table"
+    }
+  ],
+  "var_mapping": [
+    {
+      "task_id": "AT1",
+      "map": [
+        {
+          "gm_var": "table",
+          "hddl_var": "?t"
+        }
+      ]
+    }
+  ],
+  "semantic_mapping": []
+}
